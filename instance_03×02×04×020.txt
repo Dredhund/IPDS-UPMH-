@@ -1,0 +1,76 @@
+The number of jobs:
+20
+The number of machines:
+3
+The number of vehicles:
+2
+The number of customers:
+4
+
+The processing time of each order processed on different machines:
+(where rows denote machines: 1 to 3 and columns denote orders: 1 to 
+20)
+24,32,32,24,29,40,23,48,47,23,41,34,46,25,40,36,35,29,49,22
+30,36,50,24,25,24,28,42,40,24,20,48,43,38,31,39,32,40,37,26
+22,42,36,36,20,34,35,27,45,48,50,40,27,35,39,21,22,25,27,43
+
+The processing power of each machine:
+(where rows denote machines: 1 to 3 and columns denote speed level: 1 to 
+5)
+1,2,7,10,11
+1,4,5,6,8
+1,2,4,8,10
+
+The distance between each location:
+(where rows and columns denote locations: 0 to 4)
+0,97,124,70,94
+97,0,154,98,191
+124,154,0,61,158
+70,98,61,0,135
+94,191,158,135,0
+
+The weight of each order:
+10,10,18,11,13,12,11,12,20,16,18,19,15,10,13,12,19,14,13,16
+
+The earliness and tardiness  penalty factors:
+(where row 1 and 2 denote unit earliness and tardiness  penalty cost of orders respectively.)
+10,1,8,8,4,5,6,5,2,8,7,9,10,5,9,1,3,1,4,9
+17,20,20,11,11,10,16,19,16,13,20,12,20,16,14,19,15,20,20,11
+
+The delivery time window of orders:
+363,347,369,236,414,350,393,220,312,311,331,400,367,395,245,224,265,253,278,347
+518,462,592,464,569,556,465,573,605,569,504,568,615,614,536,425,430,457,496,537
+
+the loading and unloading time of each order:
+3,3,5,3,3,3,3,3,5,4,5,5,4,3,3,3,5,4,3,4
+
+The optional processing speed set of each order:
+(where rows denote orders: 1 to 20)
+1,3
+1,3,5
+2,3,5
+1,4
+2,3
+2,5
+4,5
+1,2,3,4,5
+4,5
+2,4
+5
+1,2,3,5
+1,2,3,4,5
+5
+1
+1,2,3,4,5
+1,3,4,5
+1,3
+1,5
+2,3,4,5
+
+The customer order set:
+(where rows denote customers: 1 to 4)
+4,2,8,7,13,5,12,10,1
+17,15,19
+16,3,18,20,14
+6,9,11
+
